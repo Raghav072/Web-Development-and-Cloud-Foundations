@@ -3,57 +3,242 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Development and Cloud Foundations</title>
+
+    <title>Web Development and Cloud Foundations | My Projects</title>
+
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: Arial, sans-serif;
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
             background: #f4f7fb;
-            color: #222;
+            color: #1f2937;
+            line-height: 1.6;
         }
-        h1 { color: #1d4ed8; }
+
+        header {
+            background: linear-gradient(135deg, #1d4ed8, #6d28d9);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.95;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+            color: #1d4ed8;
+        }
+
         .projects {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 15px;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
         }
-        a {
+
+        .project {
             display: block;
-            padding: 18px;
             background: white;
-            border-radius: 10px;
-            color: #1d4ed8;
+            padding: 24px;
+            border-radius: 12px;
             text-decoration: none;
-            box-shadow: 0 2px 8px #0001;
+            color: #1f2937;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
         }
-        a:hover { background: #dbeafe; }
+
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .project h3 {
+            color: #2563eb;
+            margin-bottom: 8px;
+        }
+
+        .project p {
+            font-size: 0.92rem;
+            color: #6b7280;
+        }
+
+        .github {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 22px;
+            border-radius: 8px;
+            background: #111827;
+            color: white;
+            text-decoration: none;
+        }
+
+        .github:hover {
+            background: #374151;
+        }
+
+        footer {
+            margin-top: 50px;
+            background: #111827;
+            color: #d1d5db;
+            text-align: center;
+            padding: 22px;
+        }
+
+        footer a {
+            color: #93c5fd;
+            text-decoration: none;
+        }
     </style>
 </head>
-<body>
-    <h1>My Web Development Projects</h1>
-    <p>Personal repository containing basic web pages,
-       layouts, and frontend practice projects.</p>
 
-    <div class="projects">
-        <a href="Book.html">Book</a>
-        <a href="Cart.html">Cart</a>
-        <a href="Catalogue.html">Catalogue</a>
-        <a href="Education.html">Education</a>
-        <a href="KIET.html">KIET</a>
-        <a href="Login.html">Login</a>
-        <a href="MyCV.html">My CV</a>
-        <a href="department.html">Department</a>
-        <a href="external.html">External CSS</a>
-        <a href="fontdemo.html">Font Demo</a>
-        <a href="goal1.html">Goal 1</a>
-        <a href="goal2.html">Goal 2</a>
-        <a href="inline.html">Inline CSS</a>
-        <a href="internal.html">Internal CSS</a>
-        <a href="lists.html">Lists</a>
-        <a href="practical8.html">Practical 8</a>
-        <a href="tutorial.html">Tutorial</a>
-    </div>
+<body>
+
+    <header>
+        <h1>My Web Development Projects</h1>
+        <p>Web Development and Cloud Foundations</p>
+        <p>Learning, Practicing, and Building One Project at a Time 🚀</p>
+    </header>
+
+    <main class="container">
+
+        <h2 class="section-title">Explore My Projects</h2>
+
+        <div class="projects">
+
+            <a class="project" href="solution.html">
+                <h3>CSS Box Model</h3>
+                <p>Understanding content, padding, borders, margins, and spacing.</p>
+            </a>
+
+            <a class="project" href="Book.html">
+                <h3>Book</h3>
+                <p>Explore my HTML book-related practical page.</p>
+            </a>
+
+            <a class="project" href="Cart.html">
+                <h3>Cart</h3>
+                <p>A practical webpage related to a shopping cart.</p>
+            </a>
+
+            <a class="project" href="Catalogue.html">
+                <h3>Catalogue</h3>
+                <p>Practice presenting items in a catalogue layout.</p>
+            </a>
+
+            <a class="project" href="Education.html">
+                <h3>Education</h3>
+                <p>A webpage demonstrating educational content.</p>
+            </a>
+
+            <a class="project" href="KIET.html">
+                <h3>KIET</h3>
+                <p>A webpage related to KIET.</p>
+            </a>
+
+            <a class="project" href="Login.html">
+                <h3>Login Page</h3>
+                <p>Practice creating a login interface.</p>
+            </a>
+
+            <a class="project" href="MyCV.html">
+                <h3>My CV</h3>
+                <p>Explore my curriculum vitae webpage.</p>
+            </a>
+
+            <a class="project" href="department.html">
+                <h3>Department</h3>
+                <p>A webpage demonstrating department information.</p>
+            </a>
+
+            <a class="project" href="external.html">
+                <h3>External CSS</h3>
+                <p>Learn how external stylesheets control webpage design.</p>
+            </a>
+
+            <a class="project" href="fontdemo.html">
+                <h3>Font Demo</h3>
+                <p>Experiment with typography and font styling.</p>
+            </a>
+
+            <a class="project" href="goal1.html">
+                <h3>Goal 1</h3>
+                <p>Explore my first goal-based HTML practical.</p>
+            </a>
+
+            <a class="project" href="goal2.html">
+                <h3>Goal 2</h3>
+                <p>Explore my second goal-based HTML practical.</p>
+            </a>
+
+            <a class="project" href="inline.html">
+                <h3>Inline CSS</h3>
+                <p>Practice applying CSS directly to HTML elements.</p>
+            </a>
+
+            <a class="project" href="internal.html">
+                <h3>Internal CSS</h3>
+                <p>Practice styling webpages using internal CSS.</p>
+            </a>
+
+            <a class="project" href="lists.html">
+                <h3>HTML Lists</h3>
+                <p>Practice ordered, unordered, and other HTML lists.</p>
+            </a>
+
+            <a class="project" href="practical8.html">
+                <h3>Practical 8</h3>
+                <p>View my eighth web development practical.</p>
+            </a>
+
+            <a class="project" href="tutorial.html">
+                <h3>Tutorial</h3>
+                <p>Explore my HTML tutorial webpage.</p>
+            </a>
+
+        </div>
+
+        <center>
+            <a
+                class="github"
+                href="https://github.com/raghav072/Web-Development-and-Cloud-Foundations"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View Source Code on GitHub
+            </a>
+        </center>
+
+    </main>
+
+    <footer>
+        <p>Built while learning Web Development and Cloud Foundations.</p>
+        <p>
+            Hosted with GitHub Pages |
+            <a href="https://github.com/raghav072">
+                GitHub Profile
+            </a>
+        </p>
+    </footer>
+
 </body>
 </html>
