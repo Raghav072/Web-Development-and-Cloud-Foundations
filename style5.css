@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: black;
+}
+.heading {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.heading h1 {
+    font-family: Georgia;
+    font-size: 35px;
+}
+
+.heading p {
+    font-family: Arial;
+    font-size: 18px;
+}
+.content {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+}
+.content h2 {
+    font-family: "Times New Roman";
+    color: darkblue;
+}
+.content h3 {
+    font-family: Georgia;
+    color: green;
+}
+
+.normal {
+    font-family: Arial;
+    color: blue;
+}
+
+.italic {
+    font-family: "Times New Roman";
+    font-style: italic;
+    color: red;
+}
+.bold {
+    font-family: Georgia;
+    font-weight: bold;
+    color: purple;
+}
+.box {
+    width: 60%;
+    margin: 30px auto;
+    padding: 40px;
+    text-align: center;
+    color: white;
+
+    background-image: url("box.avif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}

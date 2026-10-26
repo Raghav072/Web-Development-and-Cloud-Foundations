@@ -1,0 +1,72 @@
+/* Background image for the entire page */
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: Arial;
+    color: black;
+}
+
+/* Heading style */
+h1 {
+    font-family: Georgia;
+    color: darkblue;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Sub-heading style */
+h2 {
+    font-family: Verdana;
+    color: darkred;
+}
+
+/* Normal font */
+.normal {
+    font-family: Arial;
+    color: green;
+    font-size: 20px;
+}
+
+/* Italic font */
+.italic {
+    font-family: "Times New Roman";
+    color: purple;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Bold font */
+.bold {
+    font-family: Verdana;
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ID selector */
+#special {
+    font-family: Georgia;
+    color: darkorange;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Background image for a single element */
+.box {
+    width: 500px;
+    height: 200px;
+
+    margin: 30px auto;
+    padding: 20px;
+
+    background-image: url("box-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border: 3px solid black;
+    text-align: center;
+}

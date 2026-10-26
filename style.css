@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #faf7f0;
+    color: #1f2a44;
+}
+header {
+    background-color: #1f2a44;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.brand {
+    text-align: center;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    color: #1f2a44;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid #b8472f;
+}
+.brand h1 {
+    margin: 10px;
+    font-size: 25px;
+}
+
+.brand p {
+    margin: 5px;
+    font-size: 15px;
+}
+nav {
+    margin-top: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 17px;
+}
+nav a:hover {
+    color: #b8472f;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 1px solid #d9d2c3;
+}
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.hero p {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    background-color: #b8472f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #9a3a25;
+}
+main {
+    width: 85%;
+    margin: 30px auto;
+    padding: 20px;
+}
+h3 {
+    border-bottom: 2px solid #d9d2c3;
+    padding-bottom: 5px;
+}
+.books {
+    text-align: center;
+}
+
+.book {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #d9d2c3;
+    background-color: white;
+    vertical-align: top;
+}
+.cover {
+    height: 130px;
+    background-color: #1f2a44;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.book h4 {
+    margin: 10px 0;
+}
+.book small {
+    color: gray;
+}
+.price {
+    color: #b8472f;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.cats {
+    padding: 0;
+    text-align: center;
+}
+.cats li {
+    display: inline-block;
+    border: 1px solid #1f2a44;
+    padding: 6px 15px;
+    margin: 5px;
+    border-radius: 20px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f2a44;
+    color: white;
+    margin-top: 30px;
+}
+.page-title {
+    margin-bottom: 10px;
+}
+.book .btn {
+    padding: 7px 14px;
+    font-size: 14px;
+    margin-top: 8px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+th, td {
+    border: 1px solid #d9d2c3;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #1f2a44;
+    color: white;
+}
+.total-row td {
+    font-weight: bold;
+    background-color: #f1ece0;
+}
+.actions {
+    margin-top: 20px;
+}
+.btn.alt {
+    background-color: white;
+    color: #1f2a44;
+    border: 1px solid #1f2a44;
+}
+.btn.alt:hover {
+    background-color: #1f2a44;
+    color: white;
+}
